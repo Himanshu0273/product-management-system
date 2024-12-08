@@ -1,0 +1,22 @@
+# config.yaml
+
+database:
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "example"
+  dbname: "product_db"
+  sslmode: "disable"
+
+redis:
+  host: "localhost"
+  port: 6379
+
+rabbitmq:
+  host: "localhost"
+  port: 5672
+  username: "guest"
+  password: "guest"
+
+log:
+  level: "info"  # Can be "debug", "info", "warn", "error"
